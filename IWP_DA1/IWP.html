@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<header style="background-color:#463E3F">
+<h1 style="text-align:center;background-color:#463E3F;color:white">HTML Tutorial</h1>
+<h3 style="text-align:center;background-color:#463E3F;color:white">Developed by BALAJI M 19BCE1512</h3>
+</header>
+<style>
+
+#intro{
+font-size:large;
+color:#008080;
+}
+big~code{
+text-decoration:underline;
+}
+p#exp { color:red;font-size:large;font-family:Arial;}
+#listdiv{
+font-size:medium;
+}
+</style>
+<link rel="stylesheet" href="home.css"/>
+</head>
+<body>
+<main>
+<nav style="text-align:center;background-color:#463E3F;color:orange">
+HTML-Hyper text markup language|
+CSS-Cascading Style Sheets|
+JavaScript|
+Web development
+</nav>
+<hr>
+</br>
+<img class="center" src="HTML5.png"/>
+<div><p id="intro" style="">HTML stands for Hyper Text Markup Language.HTML is the standard markup language for creating Web pages.HTML is used for creating the static content of the webpage. HTML is often combined with CSS(Cascading Style Sheets),PHP and JavaScript to develop and manage websites.
+HTML was discovered by Tim Berners-Lee a contractor at CERN,who proposed and prototyped ENQUIRE, a system for CERN researchers to use and share documents. In 1989, Berners-Lee wrote a memo proposing an Internet-based hypertext system.This was the begining of HTML.
+</br> HTML uses a wide range of tags for it's implementation. </p>
+<p style="font-size:large;color:#228B22">In this tutorial we will be seeing the all the tags and in HTML</p>
+</div>
+<h2 style="text-align:center;text-shadow:5px 2px 4px grey"><a name="#Basic_tags">Basic tags and formatting tags in HTML</a></h2>
+<p style="font-family:Florence,cursive">Few basic and formatting tags in HTML are:</br>
+<ul>
+<li><b><u><code><big><big>!DOCTYPE</big></big></code></u></b>:A doctype or document type declaration is an instruction which tells the web browser about the markup language in which the current page is written. The Doctype is not an element or tag, it lets the browser know about the version of or standard of HTML or any other markup language that is being used in the document.
+ A DOCTYPE declaration appears at the top of a web page before all other elements. According to the HTML specification or standards, every HTML document requires a document type declaration to ensure that the pages are displayed in the way they are intended to be displayed.</br>
+For HTML documents, we give the DOCTYPE as html</li>
+</br>
+<li><b><u><big><big><code>html tag: </code></big></big></u></b>This tag is used in all HTML programs. It indicates the begining of the html program. This is the tag that marks that the document should be interpreted as a HTML document.</li>
+</br>
+<li><b><u><big><big><code>head tag: </code></big></big></u></b>The head of an HTML document is the part that is not displayed in the web browser when the page is loaded. It contains information such as the page <code>title</code>, links to CSS (if you choose to style your HTML content with CSS), links to custom favicons, and other metadata (data about the HTML, such as the author, and important keywords that describe the document.)</li>
+<li><b><u><big><big><code>title tag: </code></big></big></u></b>This contains the title of the webpage, it is the name that appears on the browser tab when we open the HTML document</li>
+</br>
+<li><b><u><big><big><code>body tag: </code></big></big></u></b>This tag is used for defining the document's body.</li>
+</br>
+<li><b><u><big><big><code>hr tag: </code></big></big></u></b>Used for drawing a horizontal line or a horizontal rule.</li>
+<li><b><u><big><big><code>br tag: </code></big></big></u></b>It is known as break tag.It is used for inserting a line break.</li>
+<li><b><u><big><big><code>hr tag: </code></big></big></u></b>Used for horizontal rule.</li>
+<li><strong><big><big><code><u>heading tag: </u></code></big></big></strong>HTML has 6 heading tags(h1 to h6) which define HTML headings. 
+The size of the text decreases from h1 to h6.The following is an example of heading tags from h1 to h6.</br>
+<output><img src="Heading_output.png" style="display: block;margin-left: auto;margin-right: auto;height:170px"/></output>
+</li>
+</ul>
+</br>
+<span class="expl"><p id="exp">For more explanation of Basic_tags</p></span>
+<a href="BT.html" target="_blank"><big>click here</big></a>
+</br>
+<span class="expl"><p id="exp">For more explanation of Formatting_tags</p></span>
+<big><a href="formatting tags.html" target="_blank">click here</a></big>
+<h2 style="text-align:center;text-shadow:5px 2px 4px grey;color:#228B22"><a name="#Forms">Forms in HTML</a></h2>
+<p>Form tag is a new inclusion in HTML 5. It is a great method to create online forms. There are many different kinds of inputs like radiobutton, checkboxes etc. which are supported by the form tag.
+Along with forms often a label is used to indicate the name of the field for the convinience of the user. The information entered through the form is then accessed and used using JavaScript and PHP at the back end.
+</p>
+<p>The following are some of the input types supported by HTML:</p>
+<ol>
+<li><b>Text</b>: This allows us to get a text input often used for text fields such as username and password.</br>
+A text box can be implemented by assigning the type attribute to "text" inside the input tag.</br>Syntax is:<code><big>&ltinput type="text"/&gt</big></code>
+</li>
+</br>
+<li><b>Radio button</b>: Radio button can be used in scenarios where the user has the choice of selecting only one of the options. It is often used in 'yes' or 'no' cases, gender selection etc.</br>
+A radio button can be rendered by assigning the type attribute of the input tag to "radio".</br>Syntax is: <code><big>&ltinput type="radio"/&gt</big></code>
+</li>
+</br>
+<li><b>Checkbox</b>: Checkboxes are used in scenarios where the user can/has to select two or more of the given choices.Commonly used in check lists.</br>
+It can be rendered by assigning the type attribute of input tag to "checkbox".</br> Syntax is: <code><big>&ltinput type="checkbox"/&gt</big></code></li>
+</br>
+<li><b>file</b>: Files are generaaly used in forms where the user has to upload a file. Mostly used in sites where verification of one's photograph is required or one's resume is required.</br>
+A file upload option can be included by assigning the type attribute of input tag to "file".</br>
+Syntax is: <code><big> &ltinput type="file"/&gt</big></code></li>
+</br>
+<li><b>email</b>: Used for accepting emails via forms. It checks whether the @ symbol and the period '.' is present in the user entered string.
+</br>Syntax is: <code><big>&ltinput type="email"/&gt</code></big></li>
+</br>
+<li><b>submit and reset</b>: These buttons are generally included in all form. The submit button is for submitting the form and recording our responses. The reset button is for clearing all our responses to start from scratch</br>
+Syntax is:<code><big>&ltinput type="submit|reset"/&gt</big></code></li>
+</ol>
+<h4><u>Select tag:</u></h4>It is used for creating a drop down list containing many options.The option tag is used for specifying the options.</br>
+Syntax is:<code><big>&ltselect&gt &ltoption&gt ...&lt/option&gt &lt/select&gt</big></code>
+</br>
+<span><p><a href="Form.html" target="_blank">Click here to see a form in HTML</a></p></span>
+<h2 style="text-align:center;text-shadow:5px 2px 4px grey;color:1E90FF"><a name="#list">Lists</a></h2>
+<div id="listdiv">
+<p>Lists are a good method to display list of values or a set of values. Lists in HTML are of three types:
+<ol>
+<li><a href="list.html" target="_blank">Ordered</a></li>
+<li><a href="Unordered-list.html" target="_blank">Unordered</a></li>
+<li><a href="Description-list.html" target="_blank">Description</a></li>
+</ol>
+<p>
+</div>
+<div> 
+<h2 style="text-align:center;text-shadow:5px 2px 4px grey;color:#191970"><a name="#Links">Links in HTML</a></h2>
+<p>A link is specified using HTML tag &lta&gt. This tag is called anchor tag and anything between the opening &lta&gt tag and the closing &lt/a&gt tag becomes part of the link and a user can click that part to reach to the linked document. Following is the simple syntax to use &lta&gt tag.
+</br></br>&lta href="..." target="_blank|self|iframe"&gt...&lt/a&gt.</br>
+<p>The &lta&gt tag has two main attributes which are href and target. href is used to specify the source URL or the path of the webpage to which it should navigate to on clicking upon the link.
+The target attribute determines the window or the tab in which the link opens. If we set the target as _self then the link gets loaded in the same tab. If we give the target as _blank, the link gets loaded in a separate tab.If we give the target as iframe,
+then it opens in the corresponding iframe.
+<p>There are two types of link in HTML, click on each of those to explore them...</p>
+<ol>
+<li><a href="Internl-links.html" target="_blank">Internal links</a></li>
+<li><a href="Externl-links.html" target="_blank">External links</li>
+</ol>
+</div>
+<div style="font-family:Arial">
+<h2 style="text-align:center;text-shadow:5px 2px 4px grey;color:green"><a name="#Tables">Tables in HTML</a></h2>
+<p >A table is an arrangement of data in rows and columns, or possibly in a more complex structure. Tables are widely used in communication, research, and data analysis.
+Tables are useful for various tasks such as presenting text information and numerical data.
+Tables can be used to compare two or more items in tabular form layout.
+Tables are used to create databases.
+</br>
+Tables are created using &lttable&gt tag. The rows are defined using &lttr&gt tag.The table headers are defined using &ltth&gt tag.The table data is defined using &lttd&gt tag.</br>
+Cell spacing and cell padding can also be implemented. We can use colspan and rowspan to merge rows and columns.
+</br></br>Syntax is:</br>
+<code><big>&lttable&gt&lttr&gt &ltth&gt...&lt/th&gt &lttd&gt ... &lt/td&gt &lt/tr&gt &lt/table&gt </big></code>
+</p>
+</br>
+<p>To explore more about tables and their implementation,<a href="Tables.html" target="_blank"> click here</a></p>
+</div>
+<div style="font-family:sans-serif">
+<h2 style="text-align:center;text-shadow:5px 2px 4px grey;color:orange"><a name="#image">Image and image map</a></h2>
+<p> HTML allows us to add images in webpages using &ltimg&gt tag. We can set  different sections of the image to navigate to different webpages by using imagemap.
+</br>The img tag must contain a src attribute which is mandatory. We specify the source of the webpage to be navigated inside the src attribute.
+</br>The following is the Syntax for img tag in HTML:</br>
+<code><big>&ltimg src=".."/&gt</big></code>
+</br>Image map is also called client side mapping. We link sections of an image to create an image map.</br>
+In order to use image map, we use the attribut usemap which is assigned to the corresponding map Id and another attribute ismap for mapping.Apart from this, we use a map tag
+which contains the details of the  areas  of the image to be mapped for which area tag is used. Inside the area tag, we specify the type of shape and coordiantes 
+of the image to be mapped.</br></br>
+The following is the syntax to implement image map:</br>
+<code><big>
+&ltimg src="..." usemap="#one" ismap/&gt</br>
+&ltmap name="#one"&gt</br>
+&ltarea shape="poly|circle|rectangle" coords="..." href="..."/&gt</br>
+&lt/map&gt</big>
+</code></br></br>To explore more click below</br>
+<a href="Indian_map.html" target="_blank"> India-Map </a>
+</p>
+</div>
+<div style="font-family:Arial">
+<h2 style="text-align:center;text-shadow:5px 2px 4px grey;"><a name="#iframe">iframes in HTML</a></h2>
+<p>
+An iframe or inline frame is used to display external objects including other web pages within a web page. An iframe pretty much acts like a mini web browser within a web browser. Also, the content inside an iframe exists entirely independent from the surrounding elements.</br>
+</br>The basic syntax for adding an iframe to a web page can be given with:
+</br><code><big>
+&ltiframe src="URL"&gt&lt/iframe&gt</big></code></br>
+</br>The URL specified in the src attribute points to the location of an external object or a web page. We can also set the target of &lta&gt tag to iframe so that it opens the link in the particular iframe.
+</br>
+Here are two examples of iframes:<big> <a href="iframe.html" target="_blank">example1</a>  <a href="Video_streamer.html" target="_blank">Video Streamer</a></big> 
+</main>
+</br>
+<footer>
+<p style="text-align:center">
+These are the tags of HTML  hope u liked the tutorial!!
+</p>
+</footer>
+</body>
+</html>

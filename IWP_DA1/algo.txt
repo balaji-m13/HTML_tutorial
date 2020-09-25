@@ -1,0 +1,14 @@
+Algorithm findMAX_and_no_of_nodes()
+{
+int max=head->data,cnt=0
+t=(struct node*)malloc(sizeof(struct node));
+t=head;
+while(t->link!=NULL)
+{
+if(t->data>max)
+max=t->data;
+cnt++;
+}
+printf(max)
+printf(cnt)
+}

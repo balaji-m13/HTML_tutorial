@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Event registration</title>
+<h2 style="background-color:blue;color:white;text-align:center">Event Registration</br>Balaji M 19BCE1512</h2>
+<style>
+body{
+background-color:#FFDAB9
+}
+</style>
+</head>
+<body>
+<form>
+<div id="yesorno">
+<label for="yes_or_no"><h3>Are u attending?*</h3></label>
+<p><input type="radio" name="reg" value="registration_confirmation" checked>Yes</input>
+</br></br>
+<input type="radio" name="reg" value="registration_non_confirmation">No</input>
+</div>
+<label><h3>NAME*:</h3><input type="text" name="firstname" placeholder="firstname" required/></label>
+<input type="text" name="lastname" placeholder="lastname" />
+</br>
+<small><pre>firstname                     lastname</pre></small>
+<label><h3 style="color:green">E-Mail*:</h3><input type="email" placeholder="email@email.org" required/></label>
+</br></br>
+<label><h3>SMS-Number</h3><input type="text" size="3" placeholder="+91" /> <input type="text"/ placeholder="897634521"></label>
+<label><h3><b>Phone Number*</b></h3><input type="text" size="3" placeholder="039" required > </input><input type="text" placeholder="222-222-222" required/></label>
+</br></br>
+<h3>How many guests?*</h3>
+<select name="Noofguests">
+<option>Please Choose</option>
+<option>1</option>
+<option>2</option>
+<option>3</option>
+<option>4</option>
+<option>5</option>
+</select>
+</br></br>
+<label><h3>Upload your photograph here:*</h3><input type="file" name="photoupload" required /></label>
+</br></br>
+<p><u>NOTE:</u>The fields marked * are mandatory.</p>
+<input style="color:white;position:absolute;background-color:green;border:3px solid green;position:relative;left:50%" name="regbutton" type="submit" value="Register"/>
+</form>
+</body>
+</html>
